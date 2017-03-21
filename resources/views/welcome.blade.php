@@ -91,5 +91,58 @@
                 </div>
             </div>
         </div>
+
+        <script
+                src="https://code.jquery.com/jquery-3.1.1.js"
+                integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+                crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/react@15/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+<!--<script>-->
+<!--    // jQuery AJAX Call-->
+<!--    var url = 'http://api.openweathermap.org/data/2.5/weather?q=Los Angeles,US&APPID=0c45c8c08ae88f19023bf1f03db86488';-->
+<!--    $.ajax({-->
+<!--        url: url,-->
+<!--        type: 'GET',-->
+<!--        success: function(data) {-->
+<!--        }-->
+<!--    });-->
+<!---->
+<!--    // JavaScript AJAX / XMLHttpRequest-->
+<!--    var xhr = new XMLHttpRequest();-->
+<!--    xhr.onreadystatechange = function() {-->
+<!--        if (this.readyState == 4 && this.status == 200) {-->
+<!--            var data = JSON.parse(xhr.responseText);-->
+<!--        }-->
+<!--    };-->
+<!--    xhr.open("GET", url, true);-->
+<!--    xhr.send();-->
+<!--</script>-->
+<!--<script>-->
+<!--    function Person(first, last, age, eyeColor) {-->
+<!--        this.firstName = first;-->
+<!--        this.lastName = last;-->
+<!--        this.age = age;-->
+<!--        this.eyeColor = eyeColor;-->
+<!--    }-->
+<!--    var myFather = new Person("John", "Doe", 50, "blue");-->
+<!--    var myMother = new Person("Sally", "Rally", 48, "green");-->
+<!--</script>-->
+<!---->
+<!--<script>-->
+<!--    function Person(first, last, age, eyeColor) {-->
+<!--        this.firstName = first;-->
+<!--        this.lastName = last;-->
+<!--        this.age = age;-->
+<!--        this.eyeColor = eyeColor;-->
+<!--    }-->
+<!--    var myFather = new Person("John", "Doe", 50, "blue");-->
+<!--    var myMother = new Person("Sally", "Rally", 48, "green");-->
+<!---->
+<!--    Person.prototype.sayName = function() {-->
+<!--        return this.firstName;-->
+<!--    };-->
+<!---->
+<!--</script>-->
     </body>
 </html>

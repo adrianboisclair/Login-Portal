@@ -11,8 +11,22 @@
     "laravel-elixir": "^6.0.0-14",
     "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.2",
+    "laravel-elixir-webpack-react": "^1.0.1",
     "lodash": "^4.16.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "history": "^1.17.0",
+    "react": "^15.4.1",
+    "react-axios": "0.0.9",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0"
   }
 }
